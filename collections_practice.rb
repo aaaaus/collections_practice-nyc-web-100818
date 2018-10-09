@@ -20,6 +20,9 @@ def kesha_maker
 end
 
 def find_a(array)
+  array.collect do |element|
+    element.start_with?("a")
+  end
 end
   
 def sum_array(array)
