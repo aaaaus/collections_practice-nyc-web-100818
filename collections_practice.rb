@@ -21,7 +21,7 @@ end
 
 def find_a(array)
   array.collect do |element|
-    element.start_with?("a")
+    if element.start_with?("a")
   end
 end
   
